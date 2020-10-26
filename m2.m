@@ -23,7 +23,11 @@ for i = 1:l
 end
 
 plot(X_0, P_0)
+xlabel("Volume")
+ylabel("Pressure")
 hold on
 xline(130)
 plot(X,P_1)
+xlabel("Volume")
+ylabel("Pressure")
 hold off
